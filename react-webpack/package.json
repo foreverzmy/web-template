@@ -1,0 +1,41 @@
+{
+  "name": "react-webpack",
+  "version": "0.0.0",
+  "description": "React Webpack 模板",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --color",
+    "build": "webpack --mode=development"
+  },
+  "dependencies": {
+    "core-js": "^3.3.6",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.21",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.16.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
